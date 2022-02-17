@@ -407,7 +407,32 @@ html {
 *, *::before, *::after {
      box-sizing: inherit;
 }
+body{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+}
 .wrapper {
     max-width: 1060px;
     margin: auto;
+}
+.header{
+    background-color: #000;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item{
+    margin-right: 82px;
 }
