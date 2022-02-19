@@ -449,6 +449,38 @@ html{
     height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
 }
 
+.intro__title {
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 22px;
+}
+.intro__subtitle {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 59px;
+}
+
+.search-form__info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-form__field {
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    background:transparent url(../img/svg/circle-icon.svg) no-repeat left top;
+    background-size: 20px;
+    border: 0px;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    line-height: 24;
+    color: white;
+    font-weight: 500;
+}
 /* Intro styles end */
