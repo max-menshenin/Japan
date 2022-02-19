@@ -470,6 +470,7 @@ html{
     display: flex;
     flex-wrap: wrap;
 }
+
 .search-form__field {
     width: 297px;
     padding-left: 43px;
@@ -479,8 +480,29 @@ html{
     border: 0px;
     border-bottom: 2px solid #BFC0C5;
     margin-right: 60px;
-    line-height: 24;
     color: white;
+    line-height: 24px;
     font-weight: 500;
+}
+
+.search-form__field ::placeholder {
+    color: white;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.search-form__submit{
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    background: #1B7DFF;
+    color: white;
+    border: 0;
+}
+
+.search-form__submit :hover, :active, :focus {
+    color: white;
+
 }
 /* Intro styles end */
