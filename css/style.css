@@ -531,11 +531,13 @@ html{
 
 }
 
-.places__cards{
+.benefits__cards{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding: 0 100px;
 }
+
 
 .places__card{
     position: relative;
