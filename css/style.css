@@ -650,6 +650,9 @@ img{
 
 .places__title {
     margin-right: 15px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
 }
 
 .places__view-all:hover, .places__view-all:focus  {
