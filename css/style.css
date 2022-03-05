@@ -660,9 +660,12 @@ img{
 }
 
 .places__cards {
+    padding-left: 50px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
 }
-
+.places__card__size_lg {
+    grid-column: span 3;
+}
 /* Places styles end */
