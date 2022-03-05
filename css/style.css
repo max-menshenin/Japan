@@ -641,6 +641,7 @@ img{
 
 }
 .places__view-all{
+    margin-bottom: 36px;
     font-size: 16px;
     color: #006DFE;
     text-decoration: none;
@@ -667,5 +668,6 @@ img{
 }
 .places__card__size_lg {
     grid-column: span 3;
+    padding-top: 30px;
 }
 /* Places styles end */
